@@ -1,1 +1,38 @@
 /* All styles for your Card Components live here */
+.Content{
+  border: gray 1px solid;
+  border-radius: 4px;
+  margin: 0;
+  margin-left: 50px;
+}
+.pic{
+  margin: 0;
+  padding: 0;
+ 
+}
+img{
+  width: 100%;
+  margin: 0;
+}
+.started{
+  margin: 0;
+  padding: 0 7px;
+}
+h3{
+  margin-top: 0px;
+  margin-bottom: 3px;
+  font-size: .9rem;
+  font-weight: bold;
+}
+
+p{
+  font-size: .85rem;
+  line-height: 1.1rem;
+  margin: 0
+}
+
+.reactjs{
+  font-size: .9rem;
+  color: gray;
+  margin: 3px 0 5px 0;
+}
