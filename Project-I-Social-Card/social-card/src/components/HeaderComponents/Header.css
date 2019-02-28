@@ -1,13 +1,13 @@
 /* All styles for your header Components live here */
 
 .Header{
-  border: fuchsia 1px solid;
+  /* border: fuchsia 1px solid; */
   display: flex;
   flex-direction: row;
 }
 
 .HeaderCont{
-  border: lightblue 1px solid;
+  /* border: lightblue 1px solid; */
 }
 
 .hcont{
@@ -16,14 +16,14 @@
 
 .Thumbnail{
   width: 170px;
-  border: green 1px solid;
+  /* border: green 1px solid; */
 }
 img{
   width: 100%;
 }
 
 .HeaderTitle{
-  border: orange 1px solid;
+  /* border: orange 1px solid; */
 }
 .title{
   font-size: .9rem;
