@@ -20,6 +20,22 @@ i:hover{
   font-size: 1.1rem;
 }
 
+#heart:hover{
+  color: fuchsia;
+}
+
+#reshare:hover{
+  color: aqua;
+}
+
+#speach:hover{
+  color: blue;
+}
+
+#email:hover{
+  color: rgb(79, 15, 228);
+}
+
 form{
   display: flex;
   flex-direction: column;
