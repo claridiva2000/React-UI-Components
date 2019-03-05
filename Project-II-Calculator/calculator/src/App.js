@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import NumButtons from './components/ButtonComponents/NumberButton'
+import Numbers from './components/ButtonComponents/NumberButton'
 import ActButtons from './components/ButtonComponents/ActionButton'
 import Display from './components/DisplayComponents/CalculatorDisplay'
 
@@ -9,7 +9,7 @@ const App = () => {
     <div className="App">
 <Display />
 <div className="numpad">
-<NumButtons /> 
+<Numbers />
 <ActButtons /> 
 </div>
     </div>
