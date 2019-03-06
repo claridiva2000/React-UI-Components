@@ -40,6 +40,9 @@
     border: gray 1px solid;
     text-align: center;
     height: 75px;
+    font-weight: bold;
+    padding-top: 40px;
+    padding-bottom: 20px;
   }
 
 
@@ -47,14 +50,13 @@
 .digits {
   display: flex;
   flex-wrap: wrap-reverse;
-  border: green 1px solid;
-  height: 409px;
+  height: 411px;
 }
 
 p {
   border: gray 1px solid;
-  width: 95px;
-  padding: 20px;
+  width: 95.7px;
+  padding: 20.1px;
   padding-top: 40px;
   font-size: 3rem;
   margin: 0;

@@ -2,10 +2,10 @@ import React from 'react';
 import './Display.css';
  
 
-const Display = () => {
+const Display = (props) => {
   return (
-    <div className="Display btnheight">
-   3.145682
+    <div className="Display">
+   {props.display}
     </div>
   );
 };

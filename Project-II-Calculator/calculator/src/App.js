@@ -9,7 +9,7 @@ import Numbers from './components/ButtonComponents/Numbers';
 const App = () => {
   return (
     <div className="App">
-<Display />
+<Display display="3.14"/>
 
 <div className="allButtons">
 <div className="numpad">
