@@ -1,5 +1,5 @@
 import React from "react";
-import NumButtons from "./NumberButton";
+import NewButtons from "./NewButtons";
 import "./Button.css";
 
 const nums = [
@@ -15,11 +15,11 @@ const nums = [
 ];
 
 function Numbers() {
-  return (
+  return(
     <div className="digits">
-      {nums.map(num => (
-        <NumButtons num={num} key={num.digit} />
-      ))}
+    {nums.map(num=>(
+      <NewButtons num={num} key={num.digit} />
+    ))}
     </div>
   );
 }

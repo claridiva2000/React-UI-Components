@@ -13,25 +13,25 @@
   text-align: center;
 }
 
-.row1, .row2, .row3{
+/* .row1, .row2, .row3{
    display: flex;
    flex-direction: row;
    font-size: 3rem;
   
- }
+ } */
 
- .button{
+ /* .button{
   border: gray 1px solid;
   padding: 50px;
   width: 50px;
   text-align: center;
   
- }
+ } */
 
- .row4{
+ /* .row4{
   font-size: 3rem;
  text-align: center;
- }
+ } */
 
  .ActButtons{
    display: flex;
@@ -51,4 +51,23 @@
 .btnheight{
   padding: 40px;
   border: gray 1px solid;
+}
+
+/* Numbers */
+.digits {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  border: green 1px solid;
+  height: 500px;
+}
+
+p {
+  border: gray 1px solid;
+  width: 29px;
+  padding: 50px;
+  padding-top: 60px;
+  font-size: 2.5rem;
+  margin: 0;
+  text-align: center;
+  font-weight: bold;
 }
