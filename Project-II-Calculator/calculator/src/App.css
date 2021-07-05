@@ -1,0 +1,10 @@
+.App{
+  width: 528px;
+  border: black 1px solid;
+  margin: auto;
+}
+
+.numpad{
+  display: flex;
+  flex-direction: row;
+}

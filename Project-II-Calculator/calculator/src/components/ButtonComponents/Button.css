@@ -1,0 +1,65 @@
+/* APP */
+
+.App{
+  margin-bottom: 50px;
+}
+
+.Display{
+  background: black;
+  color: white;
+  font-size: 2.5rem;
+  width: 484px;
+  padding: 30px;
+  padding-right: 15px;
+  text-align: right;
+}
+
+.allButtons{
+  display: flex;
+  flex-direction: row;
+}
+.numpad{
+  display: flex;
+  flex-direction: column;
+}
+
+ .side{
+   display: flex;
+   flex-direction: column;
+   background: rgb(139, 3, 3);
+   color: white;
+  font-size: 3rem;
+  padding: 40px;
+  border: gray 1px solid;
+  text-align: center;
+  }
+
+  .ActButtons{
+    font-size: 3rem;
+    padding: 30px;
+    border: gray 1px solid;
+    text-align: center;
+    height: 75px;
+    font-weight: bold;
+    padding-top: 40px;
+    padding-bottom: 20px;
+  }
+
+
+/* Numbers */
+.digits {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  height: 411px;
+}
+
+p {
+  border: gray 1px solid;
+  width: 95.7px;
+  padding: 20.1px;
+  padding-top: 40px;
+  font-size: 3rem;
+  margin: 0;
+  text-align: center;
+  font-weight: bold;
+}

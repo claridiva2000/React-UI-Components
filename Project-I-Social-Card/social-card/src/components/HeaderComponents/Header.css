@@ -1,1 +1,38 @@
 /* All styles for your header Components live here */
+
+.Header{
+  /* border: fuchsia 1px solid; */
+  display: flex;
+  flex-direction: row;
+}
+
+.HeaderCont{
+  /* border: lightblue 1px solid; */
+}
+
+.hcont{
+  margin: 5px 0;
+}
+
+.Thumbnail{
+  width: 170px;
+  /* border: green 1px solid; */
+}
+img{
+  width: 100%;
+}
+
+.HeaderTitle{
+  /* border: orange 1px solid; */
+}
+.title{
+  font-size: .9rem;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.timestamp{
+  color: gray;
+  font-size: .75rem;
+
+}
